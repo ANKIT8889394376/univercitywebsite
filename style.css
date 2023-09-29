@@ -1,0 +1,321 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+margin-top: 0%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.panel{
+    width: 100%;
+    height: 40px;
+    background-color: #015b9f;;
+    position: absolute;
+}
+.panel p{
+    color:  #fff;
+    padding: 10px;
+}
+
+/********** Logo CSS Starts **********/  
+.logo {
+    width:100%;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+/********** Logo CSS Ends **********/
+/********** Main Menu CSS Starts **********/  
+nav {
+    width:100%;
+    height: 35px;
+    float: left;
+    /* background:	#015b9f; */
+    background-color: #00294C;
+    padding:15px 0px;
+    position: fixed;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 13px;
+    font-weight: 900px;
+
+   
+}
+ nav a:hover{
+    padding: 10px;
+    background-color:chocolate ;
+    
+}
+
+/* the dropdon section */
+.dropbtn {
+    /* background-color:#015b9f;  */
+    background-color: #00294C;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    font-weight: 900px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 8px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+  .dropdown-content a:hover {background-color:coral;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:chocolate;}
+
+  /* the dropdon section end*/
+
+
+/********** Main Menu CSS Ends **********/
+
+/********** Slider CSS Starts **********/  
+/* .slider img{
+    width: 100%px;
+} */
+.slider{
+    width: 100%px; 
+    height: 800px;
+    background-image: url("collage.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 165, 0.2) 0px 8px 20px;
+    animation: changeImage 16s linear infinite;
+   
+}
+@keyframes changeImage {
+    0%{
+        background-image: url("co1.jpeg");
+    }
+    25%{
+        background-image: url("co2.jpg");
+    }
+    50%{
+        background-image: url("co3.jpeg");
+    }
+    75%{
+        background-image: url("co4.jpg");
+    }
+    100%{
+        background-image: url("co5.webp");
+    }
+}
+
+
+.department{
+    display: flex;
+    flex-direction: row;
+    background-color: #F2EDD0;
+}
+
+.d1{
+width:1200px;
+height: 280px;
+
+background-color: #F2EDD0;
+padding-left: 50px;
+
+}
+.d2{
+    width:1200px;
+    height: 240px;
+    background-color: #F2EDD0;
+    padding-left: 50px;
+    }
+
+
+.box{
+    height: 160px;
+    width: 230px;
+    border-radius: 25px;
+    justify-content:space-between;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: inline; 
+    background: #FFFFFF;
+    padding: 12px;
+    box-shadow: -1px 1px 3px 3px rgba(0,0,0,0.15);
+    transition: all 0.2s
+    
+    
+
+}
+.box a img{
+    text-decoration: none;
+    justify-content: center;
+    padding-left: 25px;
+    color:black;
+    
+   
+}
+
+.department a{
+    vertical-align: middle;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 25px;
+    color:black;
+}
+
+/*end department section*/
+
+/* start gallry section */
+
+.gallrymain {
+    width:100%;
+    height: 800px;
+    margin-left: 25px;
+    background-color: #D6F0C8;
+    
+    
+}
+.gallrymain img{
+    width: 28%;
+
+   margin-left: 30px;
+   padding-top:20px;
+   margin-top: 20px;
+   
+}
+ h2{
+    text-align: center;
+}
+/* end gallry section */
+
+/* The information section start */
+
+.studentcontainer{
+    width: 100%;
+    height: 250px;
+    background-color: #F2EDD0;
+    display: flex;
+    flex-direction: row;
+    
+}
+.studentcontaine .f1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    
+}
+.f1 .logo{
+
+    width: 200px;
+    height:50px;
+    margin-left: 40px;
+  
+}
+.logo i{
+    font-size: 50px;
+    padding-left:70px;
+    color:red;
+}
+.f1 .information{
+    height: 130px;
+    width: 200px;
+    margin-left: 40px;
+
+}
+.information h1{
+    text-align: center;
+    padding-top: 20px;
+    color: tomato;
+}
+.information p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* start placement section */
+.placement {
+    width:98%;
+    height: 100px;
+    border-top:6px solid  red;
+    border-bottom:  6px solid blue;
+    background-color:darkseagreen;
+    margin-left: 10px;
+}
+.placement img {
+    padding-top:20px;
+    width: 7%;
+    height: 40px;
+    background-repeat: repeat-x;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+/********** Footer CSS Starts **********/  
+.footer {
+    background-color:#0e3778;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+    
+}
+.footer-sect h2 {
+    color:#feb20f;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 20px;
+}
+.footer img{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+/********** Footer CSS Ends **********/
+
+

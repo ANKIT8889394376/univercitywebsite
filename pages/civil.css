@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+margin-top: 0%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/********** Logo CSS Starts **********/  
+.logo {
+    width:100%;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+/********** Logo CSS Ends **********/
+/********** Main Menu CSS Starts **********/  
+nav {
+    width:100%;
+    height: 45px;
+    float: left;
+    background:	#015b9f;
+    padding:15px 0px;
+    position: fixed;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+
+   
+}
+a:hover{
+    background-color: chocolate;
+    padding: 10px;
+}
+
+/* the dropdon section */
+.dropbtn {
+    background-color:#015b9f; 
+    color: white;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 7px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:chocolate;}
+
+  /* the dropdon section end*/
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    /*maindiv start*/
+
+    .maincontainer{
+        width: 100%;
+        height: 600px;
+        border: 1px solid black;
+        display: inline-block;
+        margin-top: 30px;
+        
+    }
+    .firstdiv{
+        height: 400px;
+        width: 500px;
+        margin:20px 50px 40px 20px ;
+        /* border: 1px solid black; */
+        display: inline-block;
+        float: right;
+    }
+    .firstdiv p{
+        text-align: justify;
+        padding-top:30px;
+        font-size: 17px;
+        color:black;
+    }
+    .firstdiv h2{
+        text-align: justify;
+        font-size: 20px;
+        padding-top:30px;
+        color: #c94a05;
+    }
+    .seconddiv{
+        height: 450px;
+        width: 350px;
+        border: 1px solid black;
+        margin:30px 40px 70px 20px ;
+     
+        
+    }
+    .seconddiv li{
+        margin: 12px;
+        margin-left: 60px;
+       
+    }
+    .seconddiv a{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+
+    .seconddiv h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+.secondbox{
+    height: 450px;
+    width: 370px;
+    border-radius: 10px;
+    margin:20px 40px 40px 20px ;
+        background-image: url("oj.jpg");
+        background-size: cover;
+    }
+/********** Footer CSS Starts **********/  
+.footer {
+    background-color:#0e3778;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+    
+}
+.footer-sect h2 {
+    color:#feb20f;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 20px;
+}
+.footer img{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+/********** Footer CSS Ends **********/
+ .contact{
+    width: 100%;
+    height: 500px;
+    background-color:#f1f1f1;
+    display: flex;
+    flex-direction: row;
+    
+ }
+ .poje{
+    text-align: center;
+ }
+.left-side{
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 30px;
+}
+h3,h4,h5{
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    color: red;
+}
+#log{
+    font-size: 40px;
+}
+
+.right-side{
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.input-box{
+    /* text-align: center; */
+   padding: 60px;
+}
+.input-box label{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.input-box input{
+    width: 300px;
+    height: 30px;
+}
+
+/* conatact end */
+
+/* The ug programmes css start */
+
+.ug{
+    width: 80%;
+    height: 70px;
+    background-color: #0e3778;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.ug h1{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.tab{
+    width: 700px;
+    height: 500px;
+    margin-left: 150px;
+    text-align: center;
+
+}
+/* UG END */
+
+/* PG START */
+.pgdetails{
+    width: 30%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 340px;
+}
+ .pgdetails ul li{
+    text-align: justify;
+    list-style: none;
+    line-height: 2.0;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #feb20f;
+    padding-left: 100px;
+    
+    
+}
+
+/* start b.tech section */
+
+.btech{
+    width: 98%;
+    height: 700px;
+    background-color: bisque;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+   margin-left: 5px;
+}
+.ima{
+    height: 500px;
+    width: 600px;
+    margin-right: 50px;
+    background-image: url("btech.png");
+    background-size: cover;
+    padding-top: 50px;
+    margin-top: 50px;
+
+    
+}
+.insinformation{
+    height: 600px;
+    width: 730px;
+   
+    
+    
+    
+}
+.insinformation strong{
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: justify;
+
+}
+/* mca start */
+.ima1{
+    height: 500px;
+    width: 600px;
+    margin-right: 50px;
+    background-image: url("mca.jpg");
+    background-size: cover;
+
+    
+}
+.ima2{
+    height: 500px;
+    width: 600px;
+    margin-right: 50px;
+    background-image: url("bsc.png");
+    background-size: cover;
+
+    
+}
+/* placement student */
+.plcem{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+}
+.placestudent{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 80px;
+}

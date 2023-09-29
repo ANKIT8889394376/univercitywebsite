@@ -1,0 +1,72 @@
+main{
+    background-color:darkgray;
+}
+/********** Slider CSS Ends **********/
+
+/********** News, Event, Notice Board CSS Starts **********/  
+
+ .event {
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    background-color:lightcoral;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 70px;
+}
+ .event div {
+    padding:20px;
+    background-color:rgb(131, 151, 161);
+}
+  
+ .event ul li {
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+    color: blueviolet;
+  
+}
+/********** News, Event, Notice Board CSS Ends **********/
+
+/********** Footer CSS Starts **********/  
+.footer {
+    background-color:#1f2836;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+    margin-top: 70px;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 20px;
+}
+.footer img{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+/********** Footer CSS Ends **********/
